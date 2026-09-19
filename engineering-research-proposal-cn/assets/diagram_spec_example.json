@@ -1,0 +1,29 @@
+{
+  "page": {
+    "width_in": 11.69,
+    "height_in": 8.27
+  },
+  "style": {
+    "font": "Microsoft YaHei",
+    "font_size_pt": 10,
+    "fill": "#D9EAF7",
+    "line": "#2F5597",
+    "text": "#1F1F1F",
+    "line_weight_pt": 1.25
+  },
+  "nodes": [
+    {"id": "requirements", "text": "工程需求与约束", "x": 5.85, "y": 7.0, "width": 2.4, "height": 0.8, "fill": "#BDD7EE"},
+    {"id": "architecture", "text": "总体方案设计", "x": 2.2, "y": 4.3, "width": 2.2, "height": 0.85},
+    {"id": "technology", "text": "关键技术研究", "x": 5.85, "y": 4.3, "width": 2.2, "height": 0.85},
+    {"id": "implementation", "text": "系统集成实现", "x": 9.5, "y": 4.3, "width": 2.2, "height": 0.85},
+    {"id": "verification", "text": "试验验证与评估", "x": 5.85, "y": 1.6, "width": 2.4, "height": 0.8, "fill": "#E2F0D9"}
+  ],
+  "connectors": [
+    {"from": "requirements", "to": "architecture"},
+    {"from": "requirements", "to": "technology"},
+    {"from": "requirements", "to": "implementation"},
+    {"from": "architecture", "to": "verification"},
+    {"from": "technology", "to": "verification"},
+    {"from": "implementation", "to": "verification"}
+  ]
+}

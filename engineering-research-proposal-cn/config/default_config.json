@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "project_name": "待填写",
+    "document_type": "技术论证报告",
+    "engineering_domain": ["待填写"],
+    "intended_reader": "项目评审专家或技术评审人员",
+    "confidentiality": "按用户要求"
+  },
+  "collaboration": {
+    "mode": "single",
+    "responsible_heading_level": null,
+    "responsible_heading_count": null,
+    "responsible_heading_ids": [],
+    "parent_heading": null,
+    "preceding_interface": null,
+    "following_interface": null,
+    "merge_template": null
+  },
+  "scope": {
+    "target_pages": 55,
+    "acceptable_page_range": [50, 60],
+    "content_density": "standard",
+    "figure_density": "medium_high",
+    "formula_density": "as_needed",
+    "reference_count_range": [50, 100]
+  },
+  "structure": {
+    "preferred_parallel_subheading_range": [3, 5],
+    "regroup_when_exceeded": true,
+    "fixed_template_columns_override": true
+  },
+  "evidence": {
+    "source_materials": [],
+    "terminology_source_priority": ["用户提供材料", "现行标准与权威资料", "本领域常用专业词汇"],
+    "citation_style": "GB/T 7714—2015",
+    "paper_language_priority": ["中文", "英文"],
+    "recent_year_window": 5
+  },
+  "technical_indicators": {
+    "policy": "ask_before_fixing_values",
+    "allowed_sources": ["用户提供材料", "用户明确确认"],
+    "confirmed": false,
+    "register": []
+  },
+  "document": {
+    "template_path": null,
+    "template_priority": "explicit_user_template_first",
+    "page_size": "A4",
+    "margins_cm": [2.54, 2.54, 2.54, 2.54],
+    "chinese_body_font": "宋体",
+    "western_body_font": "Times New Roman",
+    "body_size_pt": 12,
+    "body_line_spacing": "1.5_lines",
+    "heading_1": {"font": "黑体", "western_font": "Times New Roman", "size_pt": 15, "bold": true},
+    "heading_2": {"font": "黑体", "western_font": "Times New Roman", "size_pt": 14, "bold": true},
+    "heading_3": {"font": "黑体", "western_font": "Times New Roman", "size_pt": 12, "bold": true},
+    "caption": {"font": "楷体", "western_font": "Times New Roman", "size_pt": 10.5}
+  },
+  "formulas": {
+    "preferred_editable_type": "MathType OLE",
+    "fallback_type": "OMML",
+    "numbering": "chapter_sequence",
+    "disclose_actual_object_type": true
+  },
+  "diagrams": {
+    "source_format": "VSDX",
+    "word_insert_format_priority": ["SVG", "EMF"],
+    "orthogonal_connectors": true,
+    "require_glued_endpoints": true,
+    "color_policy": "restrained_professional",
+    "use_theme_color_for_key_lines": false
+  },
+  "quality": {
+    "require_docx_structural_audit": true,
+    "require_full_page_visual_review": true,
+    "require_vsdx_structural_audit": true,
+    "permit_unresolved_items": true,
+    "unresolved_items_must_be_listed": true
+  }
+}

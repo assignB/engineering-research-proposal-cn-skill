@@ -1,0 +1,7 @@
+interface:
+  display_name: "中文工科科研与申报书"
+  short_description: "生成并核验中文工科调研、技术论证与项目申报 Word 文档"
+  default_prompt: "使用 $engineering-research-proposal-cn 规划、调研、撰写、排版并核验一份中文工科科研或项目申报文档。"
+
+policy:
+  allow_implicit_invocation: true
