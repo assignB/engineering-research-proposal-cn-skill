@@ -12,7 +12,7 @@
 
 ```text
 $skill-installer 请从下面的 GitHub 地址安装这个 Skill：
-https://github.com/yuntianBi/engineering-research-proposal-cn-skill/tree/main/engineering-research-proposal-cn
+https://github.com/assignB/engineering-research-proposal-cn-skill/tree/main/engineering-research-proposal-cn
 ```
 
 安装完成后，在下一轮对话中输入：
